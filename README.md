@@ -4,7 +4,7 @@
 
 <br/>
 
-Backend-leaning software engineer who reasons from first principles and ships things that talk to real infrastructure, not just demos.
+Full-stack software engineer who builds products end-to-end — backend systems, frontend interfaces, and the AI layer that ties them together.
 
 **Currently:** building [Sentinel](https://github.com/rishibhansali/sentinel-fraud-detection), a real-time fraud detection platform, and interning as a **Software Engineer at Ramedia Technologies** — backend, REST APIs, PostgreSQL, AI-assisted workflows.
 
@@ -25,22 +25,34 @@ Backend-leaning software engineer who reasons from first principles and ships th
 </td></tr>
 <tr><td>
 
-**Frontend & Backend**
+**Frontend**
 <br/>
 ![React](https://img.shields.io/badge/React-0a0a0a?style=for-the-badge&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-0a0a0a?style=for-the-badge&logo=fastapi&logoColor=009688)
+![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0a?style=for-the-badge&logo=typescript&logoColor=3178C6)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0a0a0a?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0a0a?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![Vite](https://img.shields.io/badge/Vite-0a0a0a?style=for-the-badge&logo=vite&logoColor=B73BFE)
 
 </td></tr>
 <tr><td>
 
-**AI & ML**
+**Backend**
+<br/>
+![FastAPI](https://img.shields.io/badge/FastAPI-0a0a0a?style=for-the-badge&logo=fastapi&logoColor=009688)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0a0a?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![Node.js](https://img.shields.io/badge/Node.js-0a0a0a?style=for-the-badge&logo=nodedotjs&logoColor=339933)
+![WebSockets](https://img.shields.io/badge/WebSockets-0a0a0a?style=for-the-badge&logo=socketdotio&logoColor=ffffff)
+
+</td></tr>
+<tr><td>
+
+**AI & ML Engineering**
 <br/>
 ![Claude API](https://img.shields.io/badge/Claude_API-0a0a0a?style=for-the-badge&logo=anthropic&logoColor=D97757)
 ![LangChain](https://img.shields.io/badge/LangChain-0a0a0a?style=for-the-badge&logo=langchain&logoColor=1C3C3C)
 ![LangGraph](https://img.shields.io/badge/LangGraph-0a0a0a?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG_%2F_QLoRA-0a0a0a?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-0a0a0a?style=for-the-badge)
+![QLoRA Fine-Tuning](https://img.shields.io/badge/QLoRA_Fine--Tuning-0a0a0a?style=for-the-badge)
+![Agentic Workflows](https://img.shields.io/badge/Agentic_Workflows-0a0a0a?style=for-the-badge)
 
 </td></tr>
 <tr><td>
@@ -90,7 +102,18 @@ Chrome extension that reads a webpage and takes the actions you describe in plai
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/rishi-bhansali-80360721a)
-[![Email](https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:rishi.jaguars@gmail.com)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rishibhansali/rishibhansali/output/snake-dark.svg" />
+  <img alt="contribution graph" src="https://raw.githubusercontent.com/rishibhansali/rishibhansali/output/snake.svg" width="100%" />
+</picture>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishi-bhansali-80360721a)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rishi.jaguars@gmail.com)
 
 </div>
