@@ -1,30 +1,68 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="260" fill="#0a0a0a"/>
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="0%" r="85%">
+      <stop offset="0%" stop-color="#132a1d" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#0a0a0a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5f5f5"/>
+      <stop offset="100%" stop-color="#a1a1aa"/>
+    </linearGradient>
+    <linearGradient id="dotGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
 
-  <!-- corner brackets, terminal-window nod -->
-  <path d="M32 32 H64 M32 32 V64" stroke="#3f3f46" stroke-width="1.5"/>
-  <path d="M1168 32 H1136 M1168 32 V64" stroke="#3f3f46" stroke-width="1.5"/>
-  <path d="M32 228 H64 M32 228 V196" stroke="#3f3f46" stroke-width="1.5"/>
-  <path d="M1168 228 H1136 M1168 228 V196" stroke="#3f3f46" stroke-width="1.5"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+
+  <!-- floating accent particles -->
+  <circle cx="1040" cy="70" r="2" fill="#4ade80">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1090" cy="130" r="1.5" fill="#22d3ee">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="240" r="1.5" fill="#4ade80">
+    <animate attributeName="opacity" values="0.15;0.7;0.15" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="260" r="1" fill="#a1a1aa">
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- corner brackets -->
+  <path d="M40 40 H76 M40 40 V76" stroke="#3f3f46" stroke-width="1.5"/>
+  <path d="M1160 40 H1124 M1160 40 V76" stroke="#3f3f46" stroke-width="1.5"/>
+  <path d="M40 280 H76 M40 280 V244" stroke="#3f3f46" stroke-width="1.5"/>
+  <path d="M1160 280 H1124 M1160 280 V244" stroke="#3f3f46" stroke-width="1.5"/>
+
+  <!-- eyebrow label -->
+  <text x="72" y="98" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="13" letter-spacing="4" fill="#71717a">SOFTWARE ENGINEER</text>
 
   <!-- name -->
-  <text x="64" y="122" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="44" letter-spacing="2" fill="#f5f5f5">
-    rishi<tspan fill="#4ade80">.</tspan>bhansali
+  <text x="70" y="164" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" font-size="58" letter-spacing="0.5" fill="url(#nameGrad)">
+    Rishi Bhansali
   </text>
-
-  <!-- blinking cursor -->
-  <rect x="472" y="90" width="12" height="38" fill="#4ade80">
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.6s" repeatCount="indefinite"/>
-  </rect>
+  <circle cx="700" cy="145" r="7" fill="url(#dotGrad)">
+    <animate attributeName="r" values="6;8;6" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- tagline -->
-  <text x="65" y="158" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="16" fill="#a1a1aa" letter-spacing="0.5">
-    software engineer — backend systems, sometimes with a language model attached
+  <text x="72" y="202" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="16" fill="#a1a1aa" letter-spacing="0.3">
+    backend systems, occasionally with a language model attached
   </text>
 
   <!-- animated draw-in accent line -->
-  <line x1="64" y1="182" x2="1136" y2="182" stroke="#27272a" stroke-width="1"/>
-  <line x1="64" y1="182" x2="1136" y2="182" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="1072" stroke-dashoffset="1072">
-    <animate attributeName="stroke-dashoffset" from="1072" to="0" dur="1.8s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  <line x1="72" y1="228" x2="1128" y2="228" stroke="#27272a" stroke-width="1"/>
+  <line x1="72" y1="228" x2="1128" y2="228" stroke="url(#dotGrad)" stroke-width="1.5" stroke-dasharray="1056" stroke-dashoffset="1056">
+    <animate attributeName="stroke-dashoffset" from="1056" to="0" dur="1.8s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
   </line>
+
+  <!-- footer meta -->
+  <text x="72" y="256" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#52525b">RUTGERS UNIVERSITY–CAMDEN · CLASS OF 2027</text>
 </svg>
